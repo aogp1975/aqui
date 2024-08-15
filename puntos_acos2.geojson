@@ -1,0 +1,14 @@
+{"type":"FeatureCollection", "features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.50555437913845,19.28969752777536]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img2_1.jpg",
+"name": "Me siguieron desde que me bajé del camión hasta que me metí a una tienda y tuve que pedir que fueran por mí, porque no se iban. 9:00"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.50129477984811,19.28470233097899]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img2_2.jpg", 
+"name": "Me siguió una camioneta y unos tipos me tomaron fotos desde dentro, ese día decidí no acudir a la universidad y esperar a que llegaran por mí. 8:00"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.5011391605142, 19.289629918473626]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img2_3.jpg", 
+"name": "El profesor hace comentarios machistas todos los días en clase y dice que las mujeres deberíamos de traer falda siempre. 8:00"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.49966308437897, 19.290113752610033]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img2_4.jpg", 
+"name": "Un profesor siempre nos dice que deberíamos estar en casa limpiando y cocinando. 10:30"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.49681472309183, 19.290521061564707]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img2_5.jpg",
+"name": "Un chico de mi clase me seguía todos los días a mi casa y se quedaba afuera."}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.44177228227342, 19.28781147791665]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img2_6.jpg", 
+"name": "Un vato me dijo que me pagaba mi pasaje a cambio de dejarme manosear. 8:20"}}
+]}

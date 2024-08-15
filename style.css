@@ -1,0 +1,40 @@
+			* {
+				margin:  0;
+				padding: 0;
+			}
+			body{
+				background: black;
+				margin: 0; 
+				padding: 0; 
+				text-align: justify;
+			}
+			h1{
+				text-align: center;
+				color: whitesmoke;
+				font-size: 8em;
+				font-family: Arial Black, sans-serif;
+				position: absolute;
+				left: 50%;
+				top:  50%;
+				transform: translateX(-50%) translateY(-50%);
+			}
+
+			ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+li {
+  background-color:;
+  display: inline;
+  margin-right: 20px;
+  font-family: Arial Black, sans-serif;
+  font-size: 18px;
+}
+
+a {
+  color: ghostwhite;
+  padding: 0 4px;
+  text-decoration: none;
+}
+ 

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>aquí</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+<style>
+	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+#cromagro{ position:absolute; width: 15%; height:55%; top:150; left:0 ; z-index: 1; color:black; background-color: rgba(232,233,235,0.75); padding: .5vw; font-family: Arial, sans-serif; font-size: 8px; line-height: 10%}
+</style>
+</head>
+<body >
+		
+
+  </div>
+  <div id = 'cromagro'>
+   <center><h2> Simbología </h2>
+     <p>
+     	<img src= "imgs/p_acos1.png" width = "40px">
+     	<h3> Videoarte </h3>
+     </p>
+     <p>
+     	<img src= "imgs/p_acos2.png" width = "40px">
+     	<h3> De 6:00 am a 12:00 pm </h3>
+     </p>
+     <p>
+     	<img src= "imgs/p_acos3.png" width = "40px">
+      <h3> De 12:00 pm a 18:00 pm </h3>
+     </p>
+     <p>
+     	<img src= "imgs/p_acos4.png" width = "40px">
+     	<h3> Acoso verbal/Intimidación </h3>
+     </p>
+     <p>
+     	<img src= "imgs/p_acos5.png" width = "40px">
+     	<h3> Acoso físico </h3>
+     </p>
+     </center>
+   </div>
+	<div id="map"></div>
+		<script>
+			mapboxgl.accessToken = 'pk.eyJ1IjoiYW9ncDE5NzUiLCJhIjoiY2wyNzMzbXFyMDV4cDNqcHF0OHkxbmRkMCJ9.5mIqJ1rPSUefrDacB_gO6w';//token del usuario 
+			var map = new mapboxgl.Map({ //crea una instancia del objeto mapa
+				container: 'map', // nombre del div contenedor
+				style: 'mapbox://styles/aogp1975/cl272mur3002314nwa4tjlp1g', // URL del estilo del mapa
+				center: [-99.51163, 19.28881], // posicion inicial del mapa19.29232647748219, -99.49564289329153
+				zoom: 15 // zoom inicial del mapa
+				}); 
+			
+			map.addControl(new mapboxgl.NavigationControl()); //añade controles al mapa (navegación)
+
+			map.on('load', function () { // instrucciones a ejecutar cuando el mapa es cargado
+			
+				 map.addSource('puntos_acos1', { //añade una fuente de información 'nombre'
+					type: 'geojson',  // 'tipo de archivo'
+					data: 'puntos_acos1.geojson'//url del geojson a utilizarnb
+				});
+				map.addSource('puntos_acos2', { //añade una fuente de información 'nombre'
+					type: 'geojson',  // 'tipo de archivo'
+					data: 'puntos_acos2.geojson'//url del geojson a utilizarnb
+				});
+				map.addSource('puntos_acos2a', { //añade una fuente de información 'nombre'
+					type: 'geojson',  // 'tipo de archivo'
+					data: 'puntos_acos2a.geojson'//url del geojson a utilizarnb
+				});
+				map.addSource('puntos_acos3', { //añade una fuente de información 'nombre'
+					type: 'geojson',  // 'tipo de archivo'
+					data: 'puntos_acos3.geojson'//url del geojson a utilizarnb
+				});
+				map.addSource('puntos_acos3a', { //añade una fuente de información 'nombre'
+					type: 'geojson',  // 'tipo de archivo'
+					data: 'puntos_acos3a.geojson'//url del geojson a utilizarnb
+				});
+			
+				 map.addLayer({
+					'id': 'puntos_acos1-layer',//nombre de la capa
+					'type': 'circle',//tipo de capa (circle) 
+					'source': 'puntos_acos1', // recurso a utilizar 'debe coincidir con el de addSource'
+					'paint': { //elementos de estilo de la capa
+						'circle-radius': 8,//radio del circulo
+						'circle-stroke-width': 2,//ancho del contorno del circulo
+						'circle-color': '#CD9EDE',//color de relleno del circulo
+						'circle-stroke-color': 'rgba (198, 132, 221, 0.8)'//color de contorno del circulo
+						}
+				}); 
+         map.addLayer({
+					'id': 'puntos_acos2-layer',//nombre de la capa
+					'type': 'circle',//tipo de capa (circle) 
+					'source': 'puntos_acos2', // recurso a utilizar 'debe coincidir con el de addSource'
+					'paint': { //elementos de estilo de la capa
+						'circle-radius': 8,//radio del circulo
+						'circle-stroke-width': 2,//ancho del contorno del circulo
+						'circle-color': '#d95267',//color de relleno del circulo
+						'circle-stroke-color': '#8bb2cc'//color de contorno del circulo
+						}
+				});
+         map.addLayer({
+					'id': 'puntos_acos2a-layer',//nombre de la capa
+					'type': 'circle',//tipo de capa (circle) 
+					'source': 'puntos_acos2a', // recurso a utilizar 'debe coincidir con el de addSource'
+					'paint': { //elementos de estilo de la capa
+						'circle-radius': 8,//radio del circulo
+						'circle-stroke-width': 2,//ancho del contorno del circulo
+						'circle-color': '#d95267',//color de relleno del circulo
+						'circle-stroke-color': '#021166'//color de contorno del circulo
+						}
+				}); 
+         map.addLayer({
+					'id': 'puntos_acos3-layer',//nombre de la capa
+					'type': 'circle',//tipo de capa (circle) 
+					'source': 'puntos_acos3', // recurso a utilizar 'debe coincidir con el de addSource'
+					'paint': { //elementos de estilo de la capa
+						'circle-radius': 8,//radio del circulo
+						'circle-stroke-width': 2,//ancho del contorno del circulo
+						'circle-color': '#cc0c2a',//color de relleno del circulo
+						'circle-stroke-color': '#8bb2cc'//color de contorno del circulo
+						}
+				}); 
+         map.addLayer({
+					'id': 'puntos_acos3a-layer',//nombre de la capa
+					'type': 'circle',//tipo de capa (circle) 
+					'source': 'puntos_acos3a', // recurso a utilizar 'debe coincidir con el de addSource'
+					'paint': { //elementos de estilo de la capa
+						'circle-radius': 8,//radio del circulo
+						'circle-stroke-width': 2,//ancho del contorno del circulo
+						'circle-color': '#cc0c2a',//color de relleno del circulo
+						'circle-stroke-color': '#021166'//color de contorno del circulo
+						}
+				}); 
+				
+				map.on('click', 'puntos_acos1-layer', function (e) {//funciones a ejecutar cuando se hace click sobre algun elemento de la capa waypoints
+				new mapboxgl.Popup()//crea un popup
+					.setLngLat(e.lngLat)//toma las cordenadas del elemento presionado para el popopup
+					.setHTML("<video src='img_acos/"+e.features[0].properties.link_href+"'width=250px autoplay>"+e.features[0].properties.name+"</p>")//contenido dentro del popup
+					.addTo(map);//añade el popup al mapa 
+				});
+				map.on('mouseenter', 'puntos_acos1-layer', function () {//funciones a ejecutar cuando el mouse entra sobre algun elemento de la capa decesos
+					map.getCanvas().style.cursor = 'pointer';//cambia el cursoso por el icono de 'pointer'
+				});
+				map.on('mouseleave', 'puntos_acos1-layer', function () {//funciones a ejecutar cuando el mouse sale de algun elemento de la capa decesos
+					map.getCanvas().style.cursor = '';//cambia el cursoso por el icono por default
+				});
+
+
+				map.on('click', 'puntos_acos2-layer', function (e) {//funciones a ejecutar cuando se hace click sobre algun elemento de la capa waypoints
+				new mapboxgl.Popup()//crea un popup
+					.setLngLat(e.lngLat)//toma las cordenadas del elemento presionado para el popopup
+					.setHTML("<img src='img_acos/"+e.features[0].properties.link_href+"'width=250px>"+e.features[0].properties.name+"</p>")//contenido dentro del popup
+					.addTo(map);//añade el popup al mapa 
+				});
+				map.on('mouseenter', 'puntos_acos2-layer', function () {//funciones a ejecutar cuando el mouse entra sobre algun elemento de la capa decesos
+					map.getCanvas().style.cursor = 'pointer';//cambia el cursoso por el icono de 'pointer'
+				});
+				map.on('mouseleave', 'puntos_acos2-layer', function () {//funciones a ejecutar cuando el mouse sale de algun elemento de la capa decesos
+					map.getCanvas().style.cursor = '';//cambia el cursoso por el icono por default
+				});
+
+
+			map.on('click', 'puntos_acos2a-layer', function (e) {//funciones a ejecutar cuando se hace click sobre algun elemento de la capa waypoints
+				new mapboxgl.Popup()//crea un popup
+					.setLngLat(e.lngLat)//toma las cordenadas del elemento presionado para el popopup
+					.setHTML("<img src='img_acos/"+e.features[0].properties.link_href+"'width=250px>"+e.features[0].properties.name+"</p>")//contenido dentro del popup
+					.addTo(map);//añade el popup al mapa 
+				});
+				map.on('mouseenter', 'puntos_acos2a-layer', function () {//funciones a ejecutar cuando el mouse entra sobre algun elemento de la capa decesos
+					map.getCanvas().style.cursor = 'pointer';//cambia el cursoso por el icono de 'pointer'
+				});
+				map.on('mouseleave', 'puntos_acos2a-layer', function () {//funciones a ejecutar cuando el mouse sale de algun elemento de la capa decesos
+					map.getCanvas().style.cursor = '';//cambia el cursoso por el icono por default
+				});
+
+
+			map.on('click', 'puntos_acos3-layer', function (e) {//funciones a ejecutar cuando se hace click sobre algun elemento de la capa waypoints
+				new mapboxgl.Popup()//crea un popup
+					.setLngLat(e.lngLat)//toma las cordenadas del elemento presionado para el popopup
+					.setHTML("<img src='img_acos/"+e.features[0].properties.link_href+"'width=250px>"+e.features[0].properties.name+"</p>")//contenido dentro del popup
+					.addTo(map);//añade el popup al mapa 
+				});
+				map.on('mouseenter', 'puntos_acos3-layer', function () {//funciones a ejecutar cuando el mouse entra sobre algun elemento de la capa decesos
+					map.getCanvas().style.cursor = 'pointer';//cambia el cursoso por el icono de 'pointer'
+				});
+				map.on('mouseleave', 'puntos_acos3-layer', function () {//funciones a ejecutar cuando el mouse sale de algun elemento de la capa decesos
+					map.getCanvas().style.cursor = '';//cambia el cursoso por el icono por default
+				});
+
+
+			map.on('click', 'puntos_acos3a-layer', function (e) {//funciones a ejecutar cuando se hace click sobre algun elemento de la capa waypoints
+				new mapboxgl.Popup()//crea un popup
+					.setLngLat(e.lngLat)//toma las cordenadas del elemento presionado para el popopup
+					.setHTML("<img src='img_acos/"+e.features[0].properties.link_href+"'width=250px>"+e.features[0].properties.name+"</p>")//contenido dentro del popup
+					.addTo(map);//añade el popup al mapa 
+				});
+				map.on('mouseenter', 'puntos_acos3a-layer', function () {//funciones a ejecutar cuando el mouse entra sobre algun elemento de la capa decesos
+					map.getCanvas().style.cursor = 'pointer';//cambia el cursoso por el icono de 'pointer'
+				});
+				map.on('mouseleave', 'puntos_acos3a-layer', function () {//funciones a ejecutar cuando el mouse sale de algun elemento de la capa decesos
+					map.getCanvas().style.cursor = '';//cambia el cursoso por el icono por default
+				});
+		});
+</script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{"type":"FeatureCollection", "features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.49989452671883, 19.289397788598333]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img3_1.jpg", 
+"name": "Me tocaron mientras iba caminando, el tipo se burló de mí. Llevaba pants y sudadera. 7:30"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.46612482920526, 19.31630095699595]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img3_2.jpg", 
+"name": "Me da miedo subir al camión desde que un hombre me manoseó y nadie hizo nada. 7:30"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.47775018771648 , 19.2773845270095]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img3_3.jpg", 
+"name": "Un señor se paró a lado de mí en el transporte y se empezó a restregar en mí, me sentí sucia. 8:40"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.52397871079532, 19.285931282437748]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img3_4.jpg", 
+"name": "Dos chicos me manosearon y sentí mucho asco. 11:00}}
+]}

@@ -1,0 +1,12 @@
+{"type":"FeatureCollection", "features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[ -99.4407224807791, 19.288645110157603]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img3a_1.jpg",
+"name": "Un hombre me dio una nalgada al subir al transporte y cuando lo confronté me dijo que era mi culpa por estar buena. 13:00"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.51365137902785, 19.281115144322534]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img3a_2.jpg",
+"name": "Un señor borracho trató de manosearme y el chófer no hizo nada, tuve que bajarme e ir caminando a mi casa porque me dio miedo volver a subir a un autobús. 18:00 "}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.49595355302618, 19.29196636684613]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img3a_3.jpg", 
+"name": "Intentaron abusar de mí en los baños de la escuela y la institución no hizo nada. 17:30"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.49787414838659, 19.289670202348074]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img3a_4.jpg", 
+"name": "Un chico me tocó el trasero y me echó la culpa por como iba vestida. 12:30"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.52882954672113, 19.28522127921351]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img3a_5.jpg", 
+"name": "Un tipo me acorraló en la parada del autobus y me manoseó, hice la denuncia y lo primero que me preguntaron fue que como iba vestida. 16:00"}}
+]}

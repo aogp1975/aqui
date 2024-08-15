@@ -1,0 +1,8 @@
+{"type":"FeatureCollection", "features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.47252865410634, 19.326048433574936]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img2a_1.jpg", 
+"name": "Un hombre mayor me gritó obscenidades desde su coche y me invitó a subirme con él. 18:00"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.51137570634565, 19.286175334425618]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img2a_2.jpg",
+"name": "Me gritaron cosas obscenas entre varios tipos. 12:00"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.55393352662634, 19.286414639695757]},"properties":{"time":"2021-04-20T19:31:21","link_href":"img2a_3.jpg", 
+"name": "Un wey me venía acosando en el camión y me pedía que lo tocara o mínimo le diera un beso, en casa me dijeron que se lo hubiera dado para que dejara de molestar. 14:00"}}
+]}

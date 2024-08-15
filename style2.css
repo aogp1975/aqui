@@ -1,0 +1,35 @@
+
+			body{
+				background-color: black;
+				font: '';
+
+			}
+
+			h1{
+				font-family: Arial Black, sans-serif;
+				font-size: 40px;
+				color: #D9D8D9;
+				text-align: center;
+				
+			}
+
+			h3{
+				font-family: Arial Black, sans-serif;
+				color: white;
+				font-size: 30px;
+				
+			}
+
+			ul{
+				font-family: Arial, sans-serif;
+				color: white;
+				font-size: 25px;
+
+			}
+			a:link {
+				color: #E5B5F7;
+			}
+			a:hover {
+				color: #B253D5;
+			}
+

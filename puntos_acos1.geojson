@@ -1,0 +1,14 @@
+{"type":"FeatureCollection", "features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.50461319232805,19.285611485867786]},"properties":{"time":"2021-04-20T19:31:21","link_href":"acosp_1.mp4", 
+"name": "En el trayecto a la universidad, específicamente en este punto, me han gritado cosas ofensivas y que me hacen sentir incómoda. 7:32"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.49793602141968,19.290646987274204]},"properties":{"time":"2021-04-20T19:31:21","link_href":"acosp_6.mp4", 
+"name": "Mi agresor está en mi salón de clases y me acosa constantemente."}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[ -99.64171154720452, 19.29469476467549]},"properties":{"time":"2021-04-20T19:31:21","link_href":"acosp_4.mp4", 
+"name": "En el transporte público una vez un señor me iba viendo y se empezó a tocar su parte íntima, terminó masturbandose y tuve que bajarme del camión. 7:00"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[ -99.50256342615704, 19.29193262790811 ]},"properties":{"time":"2021-04-20T19:31:21","link_href":"acosp_2.mp4", 
+"name": "Una persona me siguió desde el transporte público hasta que llegué a una tienda, esperé un rato y seguí para darme cuenta de que me había seguido hasta la universidad. 8:35"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.50063663671035, 19.288659370752804]},"properties":{"time":"2021-04-20T19:31:21","link_href":"acosp_3.mp4", 
+"name": "Mi profesor me hace comentarios sugerentes todos los días en clase y me recorre con la mirada. 9:30"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-99.506318, 19.287701]},"properties":{"time":"2021-04-20T19:31:21","link_href":"acosp_5.mp4", 
+"name": "Aquí me tocaron sin mi consentimiento y me hablaron de cosas vulgares. 8:00"}}
+]}

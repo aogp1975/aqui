@@ -1,0 +1,66 @@
+			* {
+				margin:  0;
+				padding: 0;
+			}
+			body{
+				background: black;
+				margin: 0; 
+				padding: 0; 
+				text-align: justify;
+			}
+			h1{
+
+				color: whitesmoke;
+				font-family: Arial Black, sans-serif;
+
+			}
+						h2{
+
+				color: whitesmoke;
+				font-family: Arial Black, sans-serif;
+
+			}
+						h3{
+
+				color: whitesmoke;
+				font-family: Arial Black, sans-serif;
+
+			}
+						h4{
+
+				color: whitesmoke;
+				font-family: Arial Black, sans-serif;
+
+			}
+						h5{
+
+				color: whitesmoke;
+				font-family: Arial Black, sans-serif;
+
+			}
+						p{
+
+				color: whitesmoke;
+				font-family: Arial Black, sans-serif;
+
+			}
+			}
+			ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+li {
+  background-color:;
+  display: inline;
+  margin-right: 20px;
+  font-family: Arial Black, sans-serif;
+  font-size: 18px;
+}
+
+a {
+  color: ghostwhite;
+  padding: 0 4px;
+  text-decoration: none;
+}
+ 
