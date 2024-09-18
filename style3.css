@@ -44,14 +44,13 @@
 				font-family: Arial Black, sans-serif;
 
 			}
-			}
 			ul {
   list-style-type: none;
   text-align: right;
 }
 
 li {
-  background-color:;
+  background-color:coral;
   display: inline;
   margin-right: 20px;
   font-family: Arial Black, sans-serif;

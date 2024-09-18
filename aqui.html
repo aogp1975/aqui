@@ -189,7 +189,7 @@
 			map.on('click', 'puntos_acos3a-layer', function (e) {//funciones a ejecutar cuando se hace click sobre algun elemento de la capa waypoints
 				new mapboxgl.Popup()//crea un popup
 					.setLngLat(e.lngLat)//toma las cordenadas del elemento presionado para el popopup
-					.setHTML("<img src='img_acos/"+e.features[0].properties.link_href+"'width=250px>"+e.features[0].properties.name+"</p>")//contenido dentro del popup
+					.setHTML("<img src='imgs/"+e.features[0].properties.link_href+"'width=250px>"+e.features[0].properties.name+"</p>")//contenido dentro del popup
 					.addTo(map);//añade el popup al mapa 
 				});
 				map.on('mouseenter', 'puntos_acos3a-layer', function () {//funciones a ejecutar cuando el mouse entra sobre algun elemento de la capa decesos
